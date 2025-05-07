@@ -201,9 +201,9 @@
             display-name = "GAME";
             bindings = <
 &kp ESC     &kp Q  &kp W   &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I      &kp O    &kp P          &kp BSPC
-&kp LSHIFT  &kp A  &kp S   &kp D  &kp F  &kp G  &kp H  &kp J  &kp K      &kp L    &kp SEMICOLON  &kp SQT
-&kp LCTL    &kp Z  &kp X   &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp ENTER
-            &kp LALT       &kp SPACE     &kp TAB       &kp SPACE         &mo ARROWS     &kp LGUI
+&kp TAB  &kp A  &kp S   &kp D  &kp F  &kp G  &kp H  &kp J  &kp K      &kp L    &kp SEMICOLON  &kp SQT
+&kp LSHIFT    &kp Z  &kp X   &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp ENTER
+            &kp LCTL       &kp SPACE     &kp TAB       &kp LALT         &mo ARROWS     &kp LGUI
             >;
         };
         extra1 {
