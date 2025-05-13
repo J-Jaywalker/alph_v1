@@ -150,6 +150,12 @@
             timeout-ms = <35>;
         };
 
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <14 15>;
+            timeout-ms = <35>;
+        };
+
         eql {
             bindings = <&kp EQUAL>;
             key-positions = <9 10>;
@@ -181,8 +187,8 @@
             display-name = "ARRW";
             bindings = <
 &bckdl      &none  &kp N7  &kp N8    &kp N9    &kp PERCENT         &kp F12  &none     &kp UP     &none      &kp F5    &bckdl
-&kp TAB     &none  &kp N4  &kp N5    &kp N6    &kp KP_PLUS         &none    &kp LEFT  &kp DOWN   &kp RIGHT  &kp SEMI  &kp SQT
-&kp LSHIFT  &none  &kp N1  &kp N2    &kp N3    &kp KP_MINUS        &none    &none     &kp COMMA  &kp DOT    &kp FSLH  &kp ENTER
+&kp TAB     &none  &kp N4  &kp N5    &kp N6    &kp AMPS            &none    &kp LEFT  &kp DOWN   &kp RIGHT  &kp SEMI  &kp SQT
+&kp LSHIFT  &none  &kp N1  &kp N2    &kp N3    &kp STAR            &none    &none     &kp COMMA  &kp DOT    &kp FSLH  &kp ENTER
                            &kp LALT  &kp N0    &spund              &spund   &none     &kp LGUI
             >;
         };
@@ -206,7 +212,7 @@
             &kp LCTL       &kp SPACE     &kp TAB       &kp LALT         &mo ARROWS     &kp LGUI
             >;
         };
-        extra1 {
+        extra1 { 
             status = "reserved";
         };
         extra2 {
