@@ -168,12 +168,6 @@
             timeout-ms = <25>;
         };
 
-        something{
-            bindings = <&kp INS>; 
-            key-positions = <29 30>;
-            timeout-ms = <25>;
-        };
-
     };
 
     keymap {
